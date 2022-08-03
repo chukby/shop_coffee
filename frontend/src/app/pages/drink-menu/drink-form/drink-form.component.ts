@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/cores';
 import { Drink, DrinksService } from 'src/app/services/drinks.service';
 import { ModalController } from '@ionic/angular';
 import { AuthService } from 'src/app/services/auth.service';
