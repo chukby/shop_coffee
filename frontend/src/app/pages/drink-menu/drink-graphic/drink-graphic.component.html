@@ -1,6 +1,6 @@
 <div class="cup">
   <div 
-  *ngFor="let ingredient of drink && drink.recipe"
+  *ngFor="let ingredient of drink and drink.recipe"
   class="ingredient"
   [style.flexGrow]="ingredient.parts"
   [style.background]="ingredient.color">
