@@ -7,7 +7,7 @@ from urllib.request import urlopen
 from decouple import config
 
 
-#to read the env variables is as simple as:
+# Read the environment variables stored in the dotenv file.
 AUTH0_DOMAIN = config("AUTH0_DOMAIN")
 ALGORITHMS = config("ALGORITHMS")
 API_AUDIENCE = config("API_AUDIENCE")
