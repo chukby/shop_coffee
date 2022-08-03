@@ -5,7 +5,7 @@ import { TabsPage } from './tabs.page';
 const routes: Routes = [
   {
     path: 'tabs',
-    component: TabsPage,
+    component: TabsPages,
     children: [
       { path: 'drink-menu', loadChildren: '../drink-menu/drink-menu.module#DrinkMenuPageModule' },
       { path: 'user-page', loadChildren: '../user-page/user-page.module#UserPagePageModule' }, 
