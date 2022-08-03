@@ -22,7 +22,7 @@ import { from } from 'rxjs';
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    HttpClientModule,
+    HttpClientModules,
     AppRoutingModule
   ],
   providers: [
