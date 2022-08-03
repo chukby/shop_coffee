@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Drink } from 'src/app/services/drinks.services';
+import { Drink } from 'src/app/services/drinks.service';
 
 @Component({
   selector: 'app-drink-graphic',
