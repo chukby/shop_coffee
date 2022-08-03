@@ -83,7 +83,7 @@ NB: Create an .env to store environment variables as secrets
 
 ### Implement The Server
 
-There are `@TODO` comments throughout the `./backend/src`. We recommend tackling the files in order and from top to bottom:
+There are `@TODO` comments throughout the `./backend/src`. We recommend tackling the files in this order from top to bottom:
 
 1. `./src/auth/auth.py`
 2. `./src/api.py`
