@@ -8,7 +8,7 @@
     ]
   },
   "files": [
-    "test.ts",
+    "tests.ts",
     "zone-flags.ts",
     "polyfills.ts"
   ],
