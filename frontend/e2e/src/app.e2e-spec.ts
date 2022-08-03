@@ -4,7 +4,7 @@ describe('new App', () => {
   let page: AppPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new AppPages();
   });
 
   it('should display welcome message', () => {
