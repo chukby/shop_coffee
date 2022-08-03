@@ -9,7 +9,7 @@ import { AuthService } from './services/auth.service';
   selector: 'app-root',
   templateUrl: 'app.component.html'
 })
-export class AppComponents {
+export class AppComponent {
   constructor(
     private auth: AuthService,
     private platform: Platform,
