@@ -48,6 +48,8 @@ flask run --reload
 
 The `--reload` flag will detect file changes and restart the server automatically.
 
+NB: Create an .env to store environment variables as secrets
+
 ## Tasks
 
 ### Setup Auth0
